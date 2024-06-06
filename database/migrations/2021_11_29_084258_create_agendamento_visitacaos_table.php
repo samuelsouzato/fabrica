@@ -32,9 +32,9 @@ class CreateAgendamentoVisitacaosTable extends Migration
             $table->string('dependente_data_nascimento')->nullable();
 
             // Dependentes 02
-            $table->string('dependente2_nome')->nullable();  
-            $table->string('dependente2_cpf')->nullable();
-            $table->string('dependente2_data_nascimento')->nullable();
+            // $table->string('dependente2_nome')->nullable();  
+            // $table->string('dependente2_cpf')->nullable();
+            // $table->string('dependente2_data_nascimento')->nullable();
             
             // Horario da Visita
             $table->unsignedBigInteger('horario_visitacao_id');  // Relacionamento

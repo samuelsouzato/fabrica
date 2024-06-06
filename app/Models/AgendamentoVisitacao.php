@@ -24,7 +24,7 @@ class AgendamentoVisitacao extends Model
         'contato', 'email','deficiente','nome_deficiencia',
         //Dependentes
         'dependente_nome','dependente_data_nascimento','dependente_cpf',
-        'dependente2_nome','dependente2_data_nascimento','dependente2_cpf',
+        // 'dependente2_nome','dependente2_data_nascimento','dependente2_cpf',
 
         'horario_visitacao_id',
         

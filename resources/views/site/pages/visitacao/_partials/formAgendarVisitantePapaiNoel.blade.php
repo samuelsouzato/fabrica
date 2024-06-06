@@ -179,7 +179,8 @@
                             </div>
                         </div>
                         <hr class="mb-3">
-                        <div class="row" id="dependente02" style="display: none">
+                        <!-- DEPENDENTE 2 -->
+                        <!-- <div class="row" id="dependente02" style="display: none">
                             <div class="col-md-3">
                                 <label>Nome</label>
                                 <input type="text" name="dependente2_nome" class="form-control"
@@ -195,7 +196,7 @@
                                 <input type="date" name="dependente2_data_nascimento" class="form-control"
                                     placeholder="Data Nascimento">
                             </div>
-                        </div>
+                        </div> -->
                 </div>
             </div>
         </section>

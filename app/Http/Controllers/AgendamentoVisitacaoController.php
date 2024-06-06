@@ -107,9 +107,9 @@ class AgendamentoVisitacaoController extends Controller
                 ->where('dependente_nome',              '=', $data["dependente_nome"])
                 ->where('dependente_data_nascimento',   '=', $data["dependente_data_nascimento"])
                 ->where('dependente_cpf',               '=', $data["dependente_cpf"])
-                ->where('dependente2_nome',             '=', $data["dependente2_nome"])
-                ->where('dependente2_data_nascimento',  '=', $data["dependente2_data_nascimento"])
-                ->where('dependente2_cpf',              '=', $data["dependente2_cpf"])
+                // ->where('dependente2_nome',             '=', $data["dependente2_nome"])
+                // ->where('dependente2_data_nascimento',  '=', $data["dependente2_data_nascimento"])
+                // ->where('dependente2_cpf',              '=', $data["dependente2_cpf"])
                 ->where('horario_visitacao_id',         '=', $data["horario_visitacao_id"])
                 ->first();
 

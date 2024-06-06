@@ -26,7 +26,6 @@
                 <th>#</th>
                 <th>INSCRITO</th>
                 <th>DEPENDENTE</th>
-                <th>DEPENDENTE</th>
                 <th>VISITOU</th>
                 {{-- <th>VAGAS</th>
                 <th>TOTAL DE INSCRITOS</th> --}}
