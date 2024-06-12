@@ -1,4 +1,12 @@
+@extends('adminlte::page')
 
+@section('title', 'Horários Bumbódromo 2024')
+
+@section('content_header')
+<h1>Sessões para Horários Bumbódromo 2024</h1>
+@stop
+
+@section('content')
 <!---->
 <div class="card-body">
     <table class="table table-condensed">
@@ -41,3 +49,4 @@
     
 </div>
 <!---->
+@stop
